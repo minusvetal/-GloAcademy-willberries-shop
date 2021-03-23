@@ -9,7 +9,7 @@ const mySwiper = new Swiper('.swiper-container', {
 });
 
 
-// корзина 
+// корзина  модальное окно
 
 const buttonCart = document.querySelector('.button-cart');
 const modalCart = document.querySelector('#modal-cart');
