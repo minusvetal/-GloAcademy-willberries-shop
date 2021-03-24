@@ -257,6 +257,16 @@ button {
     min-height: 440px;
 }
 
+.goods-card:hover {
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;;
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+    background-color: rgb(255, 251, 251);
+    box-shadow: 0 0 0 2px white, 0 0 0 4px #3A2F28;
+}
+
 .goods-card .label {
     position: absolute;
     left: 18px;
